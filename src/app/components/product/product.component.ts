@@ -9,5 +9,5 @@ import { Product } from '../../models/product';
   styleUrl: './product.component.css'
 })
 export class ProductComponent {
-  @Input() product: Product = new Product("", 0)
+  @Input() product: Product = new Product("", 0, "")
 }
