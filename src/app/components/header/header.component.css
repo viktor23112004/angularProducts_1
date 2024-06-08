@@ -1,0 +1,11 @@
+.active {
+    background-color: rgb(177, 51, 51);
+}
+
+.brand-logo {
+    padding-left: 50px;
+}
+
+.hide-on-med-and-down {
+    padding-right: 50px;
+}

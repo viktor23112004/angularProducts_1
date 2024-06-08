@@ -23,6 +23,10 @@ export class ProductService {
     return this.http.get(this.url) as Observable<Product[]>
   }
 
+  deleteProduct(id: number) : Observable<any> {
+    return this.http.delete(`${this.url}/${id}`)
+  }
+
 
 }
 
