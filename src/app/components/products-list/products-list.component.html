@@ -1,4 +1,4 @@
 <div class="row">
-    <app-product *ngFor="let pr of products" [product]="pr"></app-product>    
+    <app-product *ngFor="let pr of products | search:searchStr" [product]="pr"></app-product>    
 </div>
 

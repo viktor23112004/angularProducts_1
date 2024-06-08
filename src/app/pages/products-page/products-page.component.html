@@ -1,5 +1,7 @@
 
-
-<div class="container">    
-    <app-products-list></app-products-list>
+<div class="container">
+    <div class="row search">
+        <app-search-box (onChanged)="searchChanged($event)"></app-search-box>
+    </div>
+    <app-products-list [searchStr]="searchStr"></app-products-list>
 </div>
